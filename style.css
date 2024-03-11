@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #17233D;
+    text-decoration: none;
+    padding-right: 25px;
+
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    color: #161A49;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin: 47px 0 85px 0;
+
+}
+
+.image {
+    Width: 595.18px;
+    Height: 500px
+}
+
+.botao1 {
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background-color: #6FBF44;
+    border: 0;
+    padding-right: 10px;
+}
+
+.botao2 {
+    font-weight: 500;
+    font-size: 18px;
+    width: 112px;
+    color: #6FBF44;
+
+}
+
+.caixa-navbar {
+    margin-left: 100px;
+    text-align: left;
+    margin-top: 47px;
+
+}
+
+.caixa-image {
+    display: inline-block;
+    margin: 246px 102px 0 121px;
+}
+
+.caixa-texto {
+    display: inline-block;
+    margin-left: 85px;
+
+}
+
+@media  screen and (max-width:1490px) {
+
+    .caixa-texto {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .image {
+        Width: 400px;
+        Height: 350px
+    }
+
+    h1 {
+        display: block;
+    }
+
+    .caixa-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        position:absolute;
+        bottom: -2%;
+        left: 25%
+
+    }
+
+    h1 {
+        font-size: 52px;
+        line-height: 100%;
+        margin-top: 10%;
+    }
+
+    p {
+        line-height: 30px;
+        margin: -10px 0 100px 0;
+        text-align: justify;
+        width: 430px;
+    }
+
+    .botao2 {
+        width: 200px;
+    }
+
+    .caixa-navbar {
+        width: 90%;
+        margin-left: auto;
+
+    }
+
+    .image {
+        margin-top: 1%;
+        margin-bottom: 20px;
+    }
+    header{
+        margin: 0;
+    }
+
+    /* sempre que trabalharmos com resposividade lembrese de definir tamnahos para os tags colocalos dentro caixas e o tamanhos dessas caixas em porcetagem 
+    pois tive muito trabalho para centralizar intens que simplemente era só usar esse unidade lembrando estou trabahando com display block então vai te ajudar definir um tamanho da
+    caixa do item para centralizar-se pois as vezes o intem já está no centro do espaço dele devido o tamanho da caixa ser pequeno nese exemplo o tamnho widht foi 50%  */
+}
